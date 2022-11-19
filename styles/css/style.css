@@ -1,0 +1,37 @@
+body{
+  height: 100vh;
+  display: flex;
+  font-family: 'Roboto', sans-serif;
+}
+
+.column {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.column h2:hover{
+  background: rgba(0,0,0,0.1);
+  border-radius: 10px;
+  transition: 0.5s;
+}
+.column h2{
+  padding: 10px;
+  color: #fff;
+  cursor: pointer;
+}
+
+.column button{
+  border: none;
+  background: transparent;
+  font-size: 1.5rem;
+  color: #fff; 
+  border-radius: 10px;
+  padding: 10px;
+}
+.column button:hover{
+  background: rgba(0,0,0,0.1);
+  transition: 0.5s;
+}
